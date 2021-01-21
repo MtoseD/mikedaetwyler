@@ -20,7 +20,7 @@
 .gn-menu-main ul {
 		margin: 0;
 		padding: 0;
-		background: white;
+		background: whitesmoke;
 		color: black;
 		list-style: none;
 		text-transform: none;
@@ -47,13 +47,15 @@
 		cursor: pointer;
 }
 
-.no-touch .gn-menu-main a:hover,
-.no-touch .gn-menu li.gn-search-item:hover,
-.no-touch .gn-menu li.gn-search-item:hover a {
-		background: whitesmoke;
-		color: black;
-
+.no-touch .gn-trigger a:hover {
+		background: rgb(119, 119, 119);
+		color: whitesmoke;
 }
+
+
+
+
+
 
 .gn-menu-main > li {
 		display: block;
@@ -82,9 +84,9 @@
 
 .gn-menu-main > li > a {
 		padding: 0 30px;
-		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: bold;
+		font-size: larger;
 }
 
 .gn-menu-main:after {
@@ -228,15 +230,15 @@ input.gn-search {
 		vertical-align: -2px;
 		width: 30px;
 		height: 3px;
-		background: #5f6f81;
-		box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
+		background: rgb(119, 119, 119);
+		box-shadow: 0 3px white, 0 -6px rgb(119, 119, 119), 0 -9px white, 0 -12px rgb(119, 119, 119);
 		content: '';
 }
 
 .no-touch .gn-icon-menu:hover::before,
 .no-touch .gn-icon-menu.gn-selected:hover::before {
-		background: #5f6f81;
-		box-shadow: 0 3px white, 0 -6px #5f6f81, 0 -9px white, 0 -12px #5f6f81;
+		background: white;
+		box-shadow: 0 3px rgb(119, 119, 119), 0 -6px white, 0 -9px rgb(119, 119, 119), 0 -12px white;
 }
 
 
@@ -269,3 +271,5 @@ input.gn-search {
 			width: 130%
 	}
 }
+
+
