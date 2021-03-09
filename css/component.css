@@ -158,9 +158,7 @@ input.gn-search {
 /* hide placeholder when active in Chrome */
 
 
-
-
-.gn-icon::before {
+.gn-icon::before, .icon-navbar {
 		display: inline-block;
 		width: 60px;
 		text-align: center;

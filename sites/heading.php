@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
@@ -47,37 +47,31 @@
                 <nav class="gn-menu-wrapper">
                     <div class="gn-scroller">
                         <ul class="gn-menu">
-                            <li>
-                                <input type="checkbox" id="list-item-1">
-                                <label id="list-item-1" for="list-item-1" class="first" class="gn-icon gn-icon-cog">Themen</label>
-                                <ul class="submenu">
-                                    <li class="submenu-li"><a href="">Fake News</a></li>
-                                    <li class="submenu-li"><a href="">Fake News</a></li>
-                                    <li class="submenu-li"><a href="">Fake News</a></li>
-                                    <li class="submenu-li"><a href="">Fake News</a></li>
-                                    <li class="submenu-li"><a href="">Fake News</a></li>
-                                </ul>
+                            <li><a href="../sites/themes.php"><i class="fas fa-server icon-navbar"></i>
+                                    Themes
+                                </a>
                             </li>
-                            <li>
-                                <input type="checkbox" id="list-item-2">
-                                <label for="list-item-2" class="first" class="gn-icon gn-icon-cog">Anleitungen</label>
-                                <ul class="submenu">
-                                    <li class="submenu-li"><a href="">Slabo</a></li>
-                                    <li class="submenu-li"><a href="">Slabo</a></li>
-                                    <li class="submenu-li"><a href="">Slabo</a></li>
-                                    <li class="submenu-li"><a href="">Slabo</a></li>
-                                    <li class="submenu-li"><a href="">Slabo</a></li>
-                                </ul>
+                            <li><a href="../sites/documentariesETC.php"><i class="fas fa-book icon-navbar"></i>
+                                    Documentaries etc.
+                                </a>
                             </li>
-                            <li><a class="gn-icon gn-icon-help">Help</a></li>
-                            <li>
-                                <a class="gn-icon gn-icon-archive">Archives</a>
+                            <li><a href="../sites/problemSolvings.php"><i class="fas fa-exclamation-triangle icon-navbar"></i>
+                                    Problem Solvings
+                                </a>
+                            </li>
+                            <li><a href="../sites/securityTips.php"><i class="fas fa-fingerprint icon-navbar"></i>
+                                    Security Tips
+                                </a>
+                            </li>
+                            <li><a href="../sites/twitterFeed.php"><i class="fab fa-twitter icon-navbar"></i>
+                                    My Twitter-Feed
+                                </a>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </li>
-            <li class="title2"><a class="title" href="">Mike Dätwyler</a></li>
+            <li class="title2"><a class="title" href="../index.php">Mike Dätwyler</a></li>
     </div>
     <script>
         new gnMenu(document.getElementById('gn-menu'));

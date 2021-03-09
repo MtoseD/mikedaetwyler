@@ -1,4 +1,3 @@
-
 <?php include"sites/heading.php";?>
 
 
@@ -38,16 +37,5 @@
 
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <!-- Footer -->
+    <?php include "sites/footer.php"; ?>
 
-    <footer>
-
-        <p>Mike Dätwyler</p>
-        <p>Mike Dätwyler</p>
-        <p>Mike Dätwyler</p>
-
-    </footer>
-
-</body>
-
-</html>
