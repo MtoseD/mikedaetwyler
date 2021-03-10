@@ -181,16 +181,39 @@ body {
   }
 }
 
+
+/* Twitter Feed */
+
+.twitterFeed{
+  background-color: white;
+  margin-top: 7%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  box-shadow: 0px 4px 16px 0px black;
+}
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer {
   float: none;
-  background-color: #FFCE73;
+  background-color: rgba(245, 245, 245, 0.788);
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-content: center;
   margin-top: 100px;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
 .tbfooter, .leftfooter {

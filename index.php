@@ -27,15 +27,18 @@
         <a class="btn" href="https://www.xing.com/profile/Mike_Daetwyler/cv" target="_blanket">
             <i class="fab fa-xing-square"></i>
         </a>
+        <a class="btn" href="https://twitter.com/MikeDaetwyler" target="_blanket">
+            <i class="fab fa-twitter"></i>
+        </a>
         <a class="btn" href="https://github.com/MtoseD" target="_blanket">
             <i class="fab fa-github"></i>
-        </a>
+        </a>        
         <a class="btn" href="mailto:mike.daetwyler@bluewin.ch" target="_blanket">
             <i class="far fa-envelope"></i>
         </a>
     </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br>
 
     <?php include "sites/footer.php"; ?>
 

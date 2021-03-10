@@ -2,9 +2,7 @@
 
 <footer>
 
-    <p>Mike Dätwyler</p>
-    <p>Mike Dätwyler</p>
-    <p>Mike Dätwyler</p>
+    <p>© 2021 M_to_se_D</p>
 
 </footer>
 

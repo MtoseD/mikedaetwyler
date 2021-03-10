@@ -71,7 +71,7 @@
                     </div>
                 </nav>
             </li>
-            <li class="title2"><a class="title" href="../index.php">Mike Dätwyler</a></li>
+            <li><a href="../index.php">Mike Dätwyler</a></li>
     </div>
     <script>
         new gnMenu(document.getElementById('gn-menu'));

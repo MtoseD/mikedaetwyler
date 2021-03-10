@@ -117,6 +117,7 @@
 		overflow-y: scroll;
 		width: 370px;
 		height: 100%;
+		background: whitesmoke;
 }
 
 .gn-menu {
@@ -138,9 +139,7 @@
 		transition: height 0.3s;
 }
 
-.gn-submenu li a {
-		color: #c1c9d1
-}
+
 
 input.gn-search {
 		position: relative;
