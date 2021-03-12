@@ -2,127 +2,53 @@ body {
   margin: 0;
 }
 
+/* Portrait */
 
-/* Flip-Card */
-
-.flip-container {
-  display: flex;
-  justify-content: center;
-  z-index: -1;
-}
-
-.flip-card {
-  background-color: transparent;
+.portrait {
   width: 400px;
   height: 600px;
-  perspective: 1000px;
-  margin-top: 10%;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
-  justify-content: center;
   display: flex;
-  align-items: center;
+  margin: auto;
+  margin-top: 7%;
+  box-shadow: 0 4px 8px 0 black;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #d5e4ee;
-  color: white;
-  transform: rotateY(180deg);
-  height: 93.5%;
-  width: 90%;
-  color: black;
-}
-
-.flip-card-img {
-  width: 400px;
-  height: 600px;
-}
-
-@media screen and (max-width: 450px) {
-  .flip-card {
-    width: 300px;
-    height: 450px;
-  }
-  .flip-card-img {
-    width: 300px;
-    height: 450px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .flip-card {
-    margin-top: 15%;
+@media screen and (max-width: 1300px) {
+  .portrait {
+    margin-top: 10%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .flip-card {
-    margin-top: 20%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .flip-card {
-    margin-top: 25%;
+  .portrait {
+    margin-top: 17%;
   }
 }
 
 @media screen and (max-width: 630px) {
-  .flip-card {
-    margin-top: 25%;
+  .portrait {
     width: 300px;
     height: 450px;
   }
-  .flip-card-img {
-    width: 300px;
-    height: 450px;
+}
+
+@media screen and (max-width: 500px) {
+  .portrait {
+    margin-top: 25%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .flip-card {
+  .portrait {
     margin-top: 25%;
-    width: 250px;
-    height: 375px;
-  }
-  .flip-card-img {
     width: 250px;
     height: 375px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .flip-card {
+@media screen and (max-width: 350px) {
+  .portrait {
     margin-top: 30%;
-    width: 200px;
-    height: 300px;
-  }
-  .flip-card-img {
     width: 200px;
     height: 300px;
   }
@@ -195,36 +121,80 @@ body {
 }
 
 @media screen and (max-width: 1250px) {
-  .btn{
+  .btn {
     width: 100px;
     height: 100px;
     margin: 25px;
   }
-  .btn i{
+  .btn i {
     line-height: 100px;
-    font-size: 55px;
+    font-size: 52px;
   }
 }
 
 @media screen and (max-width: 750px) {
-  .buttons{
+  .buttons {
     margin-top: 10%;
   }
-  .btn{
+  .btn {
     width: 70px;
     height: 70px;
     margin: 25px;
   }
-  .btn i{
+  .btn i {
     line-height: 70px;
-    font-size: 40px;
+    font-size: 36px;
   }
 }
 
+/* Themes */
+
+.themes-container {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 70px;
+  padding: 5%;
+  box-shadow: 0px 4px 16px 0px black;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
 
 /* Twitter Feed */
 
-.twitterFeed{
+.twitterFeed {
   background-color: white;
   margin-top: 100px;
   margin-left: 12.5%;
@@ -233,15 +203,6 @@ body {
   padding: 2%;
   box-shadow: 0px 4px 16px 0px black;
 }
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 
@@ -257,11 +218,11 @@ footer {
   font-size: large;
 }
 
-.footerLink{
+.footerLink {
   color: black;
 }
 
-.footerText, .tbfooter{
+.footerText, .tbfooter {
   margin: 1%;
 }
 
@@ -269,7 +230,7 @@ footer {
   footer {
     justify-content: space-around;
   }
-  .footerText, .tbfooter{
+  .footerText, .tbfooter {
     margin: 2%;
   }
 }
@@ -278,7 +239,7 @@ footer {
   .tbfooter {
     order: 1;
   }
-  .footerText{
+  .footerText {
     order: 2;
   }
   footer {
