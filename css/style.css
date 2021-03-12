@@ -92,6 +92,18 @@ body {
   }
 }
 
+@media screen and (max-width: 630px) {
+  .flip-card {
+    margin-top: 25%;
+    width: 300px;
+    height: 450px;
+  }
+  .flip-card-img {
+    width: 300px;
+    height: 450px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .flip-card {
     margin-top: 25%;
@@ -121,7 +133,8 @@ body {
 .buttons {
   justify-content: center;
   display: flex;
-  margin-top: 10%;
+  flex-wrap: wrap;
+  margin-top: 7%;
 }
 
 .btn {
@@ -181,15 +194,42 @@ body {
   }
 }
 
+@media screen and (max-width: 1250px) {
+  .btn{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+  }
+  .btn i{
+    line-height: 100px;
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .buttons{
+    margin-top: 10%;
+  }
+  .btn{
+    width: 70px;
+    height: 70px;
+    margin: 25px;
+  }
+  .btn i{
+    line-height: 70px;
+    font-size: 40px;
+  }
+}
+
 
 /* Twitter Feed */
 
 .twitterFeed{
   background-color: white;
-  margin-top: 7%;
+  margin-top: 100px;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  margin-bottom: 5%;
+  margin-bottom: 70px;
   padding: 2%;
   box-shadow: 0px 4px 16px 0px black;
 }
@@ -207,47 +247,42 @@ body {
 
 footer {
   float: none;
-  background-color: rgba(245, 245, 245, 0.788);
+  background-color: rgba(245, 245, 245, 0.658);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
-  margin-top: 100px;
+  margin-top: 7%;
   font-family: 'Lato', Arial, sans-serif;
+  font-size: large;
 }
 
-.tbfooter, .leftfooter {
-  margin-left: 2%;
-  margin-right: 2%;
-  margin-top: 1%;
-  margin-bottom: 1%;
+.footerLink{
+  color: black;
 }
 
-.tbfooter {
-  font-weight: 700;
-}
-
-.leftfooter {
-  font-size: 150%;
+.footerText, .tbfooter{
+  margin: 1%;
 }
 
 @media screen and (max-width: 1000px) {
   footer {
     justify-content: space-around;
   }
+  .footerText, .tbfooter{
+    margin: 2%;
+  }
 }
 
 @media screen and (max-width: 700px) {
-  .leftfooter {
-    order: 2;
-    margin-top: 10%;
-  }
   .tbfooter {
     order: 1;
-    margin-top: 5%;
+  }
+  .footerText{
+    order: 2;
   }
   footer {
     flex-direction: column;
-    text-align: center;
+    font-size: medium;
   }
 }

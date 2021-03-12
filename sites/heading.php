@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Mike Dätwyler</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
     <meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
@@ -33,7 +33,6 @@
     <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 </head>
-
 
 
 <body>
