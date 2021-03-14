@@ -1,13 +1,12 @@
 <?php include "sites/heading.php"; ?>
 
-
+<!-- Portrait -->
 <div class="portrait-container">
     <img class="portrait" src="images/mikedaetwyler.jpg" alt="Portrait von Mike Dätwyler">
 </div>
 
 
 <!-- Social Media Buttons -->
-
 <div class="buttons">
     <a class="btn" href="https://www.linkedin.com/in/mike-daetwyler" target="_blanket">
         <i class="fab fa-linkedin"></i>
