@@ -9,8 +9,7 @@ body {
 /* Portrait */
 
 .portrait {
-  width: 400px;
-  height: 600px;
+  width: 300px;
   display: flex;
   margin: auto;
   margin-top: 7%;
@@ -29,32 +28,22 @@ body {
   }
 }
 
-@media screen and (max-width: 630px) {
-  .portrait {
-    width: 300px;
-    height: 450px;
-  }
-}
-
 @media screen and (max-width: 500px) {
   .portrait {
     margin-top: 25%;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 475px) {
   .portrait {
     margin-top: 25%;
     width: 250px;
-    height: 375px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .portrait {
     margin-top: 30%;
-    width: 200px;
-    height: 300px;
   }
 }
 
@@ -69,10 +58,10 @@ body {
 
 .btn {
   display: inline-block;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
+  margin: 25px;
   background: rgb(221, 221, 221);
-  margin: 50px;
   border-radius: 50%;
   box-shadow: 0 5px 15px -5px black;
   color: black;
@@ -82,8 +71,8 @@ body {
 }
 
 .btn i {
-  line-height: 150px;
-  font-size: 70px;
+  line-height: 100px;
+  font-size: 52px;
   transition: 0.2s linear;
 }
 
@@ -124,17 +113,6 @@ body {
   }
 }
 
-@media screen and (max-width: 1250px) {
-  .btn {
-    width: 100px;
-    height: 100px;
-    margin: 25px;
-  }
-  .btn i {
-    line-height: 100px;
-    font-size: 52px;
-  }
-}
 
 @media screen and (max-width: 750px) {
   .buttons {

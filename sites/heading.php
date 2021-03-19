@@ -14,6 +14,7 @@
     <script src="../js/modernizr.custom.js"></script>
     <script src="../js/classie.js"></script>
     <script src="../js/gnmenu.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
     <script src="https://kit.fontawesome.com/56a7121549.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
