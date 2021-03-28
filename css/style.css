@@ -6,6 +6,52 @@ body {
   margin: 0;
 }
 
+
+/* Footer */
+
+footer {
+  float: none;
+  background-color: rgba(245, 245, 245, 0.658);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 7%;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: large;
+}
+
+.footerLink {
+  color: black;
+}
+
+.footerText, .tbfooter {
+  margin: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+  footer {
+    justify-content: space-around;
+  }
+  .footerText, .tbfooter {
+    margin: 2%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tbfooter {
+    order: 1;
+  }
+  .footerText {
+    order: 2;
+  }
+  footer {
+    flex-direction: column;
+    font-size: medium;
+  }
+}
+
+
 /* Portrait */
 
 .portrait {
@@ -265,6 +311,30 @@ body {
 }
 
 
+/* Helpful Links */
+
+.helpfulLink-container{
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  box-shadow: 0px 2px 8px 0px black;
+  transition: ease-out;
+  font-size: x-large;
+}
+
+.helpfulLink-container-first{
+  margin-top: 100px;
+}
+
+.helpfulLink-container:hover{
+  background-color: rgb(231, 231, 231);
+}
+
+
 /* Twitter Feed */
 
 .twitterFeed {
@@ -278,53 +348,8 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  .twitterFeed{
+  .twitterFeed, .helpfulLink-container{
     margin-left: 10%;
     margin-right: 10%;
-  }
-}
-
-
-/* Footer */
-
-footer {
-  float: none;
-  background-color: rgba(245, 245, 245, 0.658);
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  align-content: center;
-  margin-top: 7%;
-  font-family: 'Lato', Arial, sans-serif;
-  font-size: large;
-}
-
-.footerLink {
-  color: black;
-}
-
-.footerText, .tbfooter {
-  margin: 1%;
-}
-
-@media screen and (max-width: 1000px) {
-  footer {
-    justify-content: space-around;
-  }
-  .footerText, .tbfooter {
-    margin: 2%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .tbfooter {
-    order: 1;
-  }
-  .footerText {
-    order: 2;
-  }
-  footer {
-    flex-direction: column;
-    font-size: medium;
   }
 }

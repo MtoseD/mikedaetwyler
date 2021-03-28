@@ -55,13 +55,13 @@
                                     Documentaries etc.
                                 </a>
                             </li>
-                            <li><a href="../sites/problemSolvings.php"><i class="fas fa-exclamation-triangle icon-navbar"></i>
-                                    Problem Solvings
-                                </a>
-                            </li>
                             <li><a href="../sites/securityTips.php"><i class="fas fa-fingerprint icon-navbar"></i>
                                     Security Tips
                                 </a>
+                            <li><a href="../sites/helpfulLinks.php"><i class="fas fa-link icon-navbar"></i>
+                                    Helpful Links
+                                </a>
+                            </li>
                             </li>
                             <li><a href="../sites/twitterFeed.php"><i class="fab fa-twitter icon-navbar"></i>
                                     My Twitter-Feed
