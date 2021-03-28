@@ -24,7 +24,9 @@ footer {
 .footerLink {
   color: black;
 }
-
+span{
+  margin-top: 5%;
+}
 .footerText, .tbfooter {
   margin: 1%;
 }
@@ -267,8 +269,8 @@ footer {
   margin-right: 12.5%;
   margin-bottom: 70px;
   padding: 5%;
-  padding-top: 1%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   box-shadow: 0px 4px 16px 0px black;
 }
 
@@ -313,25 +315,40 @@ footer {
 
 /* Helpful Links */
 
+.helpfulLink{
+  text-decoration: none;
+  color: rgb(0, 22, 63);
+}
+
 .helpfulLink-container{
+  margin-top: 2%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  text-align: center;
+}
+
+.helpfulLink-content{
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
   padding: 1%;
-  margin-top: 2%;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
   box-shadow: 0px 2px 8px 0px black;
-  transition: ease-out;
   font-size: x-large;
+  font-family: 'Lato', Arial, sans-serif;
 }
 
 .helpfulLink-container-first{
   margin-top: 100px;
 }
 
-.helpfulLink-container:hover{
+.helpfulLink-content:hover{
   background-color: rgb(231, 231, 231);
+}
+
+@media screen and (max-width: 1150px) {
+  .helpfulLink-content{
+    font-size: large;
+  }
 }
 
 
