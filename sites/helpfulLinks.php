@@ -1,5 +1,6 @@
 <?php include "heading.php"; ?>
 
+<!-- Links -->
 <div class="helpfulLink-container helpfulLink-container-first">
   <a class="helpfulLink" href="https://bm.gianbucher.ch/" target="_blank">
     <div class="helpfulLink-content">      
