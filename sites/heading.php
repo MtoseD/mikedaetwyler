@@ -6,15 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mike Dätwyler</title>
+    <meta name="description" content="Written by Mike Dätwyler Author, Ilustrated by Mike Dätwyler">
+    <meta name="keywords" content="Mike Dätwyler, Mike-Dätwyler, Dätwyler, m-to-se-d.ch, MtoseD">
+    <meta name="author" content="Mike Dätwylers" />
+    <link rel="stylesheet" type="text/css" href="../css/component.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <meta name="description" content="A sidebar menu as seen on the Google Nexus 7 website" />
-    <meta name="keywords" content="google nexus 7 menu, css transitions, sidebar, side menu, slide out menu" />
-    <meta name="author" content="Codrops" />
-    <link rel="stylesheet" type="text/css" href="../css/component.css" />
     <script src="../js/modernizr.custom.js"></script>
     <script src="../js/classie.js"></script>
-    <script src="../js/gnmenu.js"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script src="../js/gnmenu.js"></script>    
     <script src="https://kit.fontawesome.com/56a7121549.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
@@ -48,23 +47,22 @@
                     <div class="gn-scroller">
                         <ul class="gn-menu">
                             <li><a href="../sites/themes.php"><i class="fas fa-server icon-navbar"></i>
-                                    Themes
+                                    Themen
                                 </a>
                             </li>
                             <li><a href="../sites/documentariesETC.php"><i class="fas fa-book icon-navbar"></i>
-                                    Documentaries etc.
+                                    Dokumentationen etc.
                                 </a>
                             </li>
                             <li><a href="../sites/securityTips.php"><i class="fas fa-fingerprint icon-navbar"></i>
-                                    Security Tips
+                                    Security Tipps
                                 </a>
-                            <li><a href="../sites/helpfulLinks.php"><i class="fas fa-link icon-navbar"></i>
-                                    Helpful Links
-                                </a>
-                            </li>
-                            </li>
                             <li><a href="../sites/twitterFeed.php"><i class="fab fa-twitter icon-navbar"></i>
-                                    My Twitter-Feed
+                                    Mein Twitter-Feed
+                                </a>
+                            </li>
+                            <li><a href="../sites/helpfulLinks.php"><i class="fas fa-link icon-navbar"></i>
+                                    Hilfreiche Links
                                 </a>
                             </li>
                         </ul>
@@ -72,6 +70,7 @@
                 </nav>
             </li>
             <li><a href="../index.php">Mike Dätwyler</a></li>
+        </ul>
     </div>
     <script>
         new gnMenu(document.getElementById('gn-menu'));

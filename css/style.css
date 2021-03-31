@@ -1,11 +1,10 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
 }
-
 
 /* Footer */
 
@@ -24,9 +23,11 @@ footer {
 .footerLink {
   color: black;
 }
-span{
+
+span {
   margin-top: 5%;
 }
+
 .footerText, .tbfooter {
   margin: 1%;
 }
@@ -53,20 +54,59 @@ span{
   }
 }
 
-
 /* Portrait */
 
 .portrait {
-  width: 300px;
+  width: 330px;
   display: flex;
   margin: auto;
   margin-top: 7%;
   box-shadow: 0 4px 8px 0 black;
+  background: transparent;
+}
+
+.mail-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.mail {
+  display: flex;
+  margin: auto;
+  background: lightgray;
+  padding: 10px;
+  font-size: large;
+  font-weight: 550;
+  border: solid lightgray 10px;
+  border-radius: 20px;
+  transition-duration: 0.4s;
+}
+
+.mail-container a {
+  text-decoration: none;
+}
+
+.mail-envelope {
+  font-size: large;
+  padding-right: 5px;
+}
+
+.mail:hover {
+  background-color: rgb(19, 18, 18);
+  color: white;
+  border: solid rgb(19, 18, 18) 10px;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 1300px) {
   .portrait {
     margin-top: 10%;
+  }
+  .mail-container {
+    margin-top: 2%;
   }
 }
 
@@ -80,12 +120,18 @@ span{
   .portrait {
     margin-top: 25%;
   }
+  .mail-container {
+    margin-top: 3%;
+  }
 }
 
 @media screen and (max-width: 475px) {
   .portrait {
     margin-top: 25%;
-    width: 250px;
+    width: 270px;
+  }
+  .mail, .mail-envelope {
+    font-size: medium;
   }
 }
 
@@ -161,7 +207,6 @@ span{
   }
 }
 
-
 @media screen and (max-width: 750px) {
   .buttons {
     margin-top: 10%;
@@ -176,7 +221,6 @@ span{
     font-size: 36px;
   }
 }
-
 
 /* Themes */
 
@@ -253,7 +297,7 @@ span{
   display: block
 }
 
-#myUL li .myUL-last{
+#myUL li .myUL-last {
   border-bottom: 0px solid #ddd;
 }
 
@@ -262,7 +306,7 @@ span{
   border-radius: 10px;
 }
 
-.themes-container-content{
+.themes-container-content {
   background-color: white;
   margin-top: 100px;
   margin-left: 12.5%;
@@ -291,43 +335,42 @@ span{
     text-shadow: none;
     width: 0;
   }
-  .themes-container, .themes-container-content{
+  .themes-container, .themes-container-content {
     margin-left: 7%;
     margin-right: 7%;
   }
-  .themes-container-content{
+  .themes-container-content {
     margin-top: 50px;
   }
 }
 
 @media screen and (max-width: 470px) {
-  .themes-title, .themes-content-title{
+  .themes-title, .themes-content-title {
     font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 370px) {
-  .themes-title{
+  .themes-title {
     font-size: 1.25em;
   }
 }
 
-
 /* Helpful Links */
 
-.helpfulLink{
+.helpfulLink {
   text-decoration: none;
   color: rgb(0, 22, 63);
 }
 
-.helpfulLink-container{
+.helpfulLink-container {
   margin-top: 2%;
   margin-left: 12.5%;
   margin-right: 12.5%;
   text-align: center;
 }
 
-.helpfulLink-content{
+.helpfulLink-content {
   background-color: white;
   border: 1px solid black;
   border-radius: 10px;
@@ -337,20 +380,19 @@ span{
   font-family: 'Lato', Arial, sans-serif;
 }
 
-.helpfulLink-container-first{
+.helpfulLink-container-first {
   margin-top: 100px;
 }
 
-.helpfulLink-content:hover{
+.helpfulLink-content:hover {
   background-color: rgb(231, 231, 231);
 }
 
 @media screen and (max-width: 1150px) {
-  .helpfulLink-content{
+  .helpfulLink-content {
     font-size: large;
   }
 }
-
 
 /* Twitter Feed */
 
@@ -365,7 +407,7 @@ span{
 }
 
 @media screen and (max-width: 850px) {
-  .twitterFeed, .helpfulLink-container{
+  .twitterFeed, .helpfulLink-container {
     margin-left: 10%;
     margin-right: 10%;
   }
