@@ -356,6 +356,87 @@ span {
   }
 }
 
+/* Documentaries etc. */
+
+.collapsible-container{
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.collapsible-first{
+  margin-top: 100px;
+}
+
+.collapsible {
+  background-color: rgb(88, 86, 86);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border: solid 1px black;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  background-color: whitesmoke;
+}
+
+.collapsible-object{
+  height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 560px) {
+  .collapsible-container{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+
+/* Security Tips */
+
+/* Twitter Feed */
+
+.twitterFeed {
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 70px;
+  padding: 2%;
+  box-shadow: 0px 4px 16px 0px black;
+}
+
+@media screen and (max-width: 850px) {
+  .twitterFeed, .helpfulLink-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
 /* Helpful Links */
 
 .helpfulLink {
@@ -380,10 +461,6 @@ span {
   font-family: 'Lato', Arial, sans-serif;
 }
 
-.helpfulLink-container-first {
-  margin-top: 100px;
-}
-
 .helpfulLink-content:hover {
   background-color: rgb(231, 231, 231);
 }
@@ -394,21 +471,24 @@ span {
   }
 }
 
-/* Twitter Feed */
-
-.twitterFeed {
-  background-color: white;
-  margin-top: 100px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  margin-bottom: 70px;
-  padding: 2%;
-  box-shadow: 0px 4px 16px 0px black;
+@media screen and (max-width: 800px) {
+  .helpfulLink-container {
+    margin-top: 4%;
+  }
 }
 
-@media screen and (max-width: 850px) {
-  .twitterFeed, .helpfulLink-container {
-    margin-left: 10%;
-    margin-right: 10%;
+@media screen and (max-width: 700px) {
+  .helpfulLink-container {
+    margin-top: 5%;
   }
+}
+
+@media screen and (max-width: 500px) {
+  .helpfulLink-container {
+    margin-top: 7%;
+  }
+}
+
+.helpfulLink-container-first {
+  margin-top: 100px;
 }
