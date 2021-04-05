@@ -253,7 +253,6 @@ span {
   margin-top: 100px;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  margin-bottom: 70px;
   padding: 5%;
   padding-top: 1%;
   padding-bottom: 3%;
@@ -306,12 +305,16 @@ span {
   border-radius: 10px;
 }
 
+.themes-id {
+  opacity: 0;
+  margin-bottom: 3%;
+}
+
 .themes-container-content {
   background-color: white;
   margin-top: 100px;
   margin-left: 12.5%;
   margin-right: 12.5%;
-  margin-bottom: 70px;
   padding: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -358,12 +361,12 @@ span {
 
 /* Documentaries etc. */
 
-.collapsible-container{
+.collapsible-container {
   margin-left: 12.5%;
   margin-right: 12.5%;
 }
 
-.collapsible-first{
+.collapsible-first {
   margin-top: 100px;
 }
 
@@ -403,18 +406,17 @@ span {
   background-color: whitesmoke;
 }
 
-.collapsible-object{
+.collapsible-object {
   height: 600px;
   width: 100%;
 }
 
 @media screen and (max-width: 560px) {
-  .collapsible-container{
+  .collapsible-container {
     margin-left: 7%;
     margin-right: 7%;
   }
 }
-
 
 /* Security Tips */
 
