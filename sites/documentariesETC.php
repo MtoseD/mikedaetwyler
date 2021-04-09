@@ -6,39 +6,78 @@
 <div class="collapsible-container">
     <button class="collapsible collapsible-first">Raspberry Pi - LAMP Server</button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/Raspberry Pi - LAMP Server.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/Raspberry Pi - LAMP Server.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/Raspberry Pi - LAMP Server.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
+
     <button class="collapsible">Raspberry Pi - Mail Server</button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/Raspberry Pi - Mail Server.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/Raspberry Pi - Mail Server.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/Raspberry Pi - Mail Server.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
+
     <button class="collapsible">ÜK 105 - Zusammenfassung</button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
+    <button class="collapsible"></button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
     <button class="collapsible"></button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
     <button class="collapsible"></button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
     <button class="collapsible"></button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
     <button class="collapsible"></button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
     <button class="collapsible"></button>
     <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
-    </div>
-    <button class="collapsible"></button>
-    <div class="content">
-        <iframe class="collapsible-object" src="../documents/ÜK 105 - Zusammenfassung.pdf" frameborder="0"></iframe>
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
     </div>
 </div>
 

@@ -411,6 +411,22 @@ span {
   width: 100%;
 }
 
+.btn-container{
+  margin: 0;
+}
+
+.download-btn {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-decoration: none;
+  color: black;
+}
+
+.download-icon{
+  padding-left: 5px;
+}
+
+
 @media screen and (max-width: 560px) {
   .collapsible-container {
     margin-left: 7%;
