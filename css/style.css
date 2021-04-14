@@ -24,19 +24,25 @@ footer {
   color: black;
 }
 
-span {
-  margin-top: 5%;
-}
-
-.footerText, .tbfooter {
+.footerCopyright, .tbfooter, .footerDonation {
   margin: 1%;
 }
 
-@media screen and (max-width: 1000px) {
+.footerDonationLink{
+  text-decoration: none;
+  color: black;
+}
+
+.donation-icon{
+  padding-right: 5px;
+  color: #5f5f5f;
+}
+
+@media screen and (max-width: 475px) {
   footer {
     justify-content: space-around;
   }
-  .footerText, .tbfooter {
+  .footerCopyright, .tbfooter, .footerDonation {
     margin: 2%;
   }
 }
@@ -45,7 +51,7 @@ span {
   .tbfooter {
     order: 1;
   }
-  .footerText {
+  .footerCopyright {
     order: 2;
   }
   footer {
@@ -319,6 +325,10 @@ span {
   padding-top: 2%;
   padding-bottom: 2%;
   box-shadow: 0px 4px 16px 0px black;
+}
+
+.arrow-icon{
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 850px) {
