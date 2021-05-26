@@ -11,6 +11,7 @@
     <meta name="author" content="Mike Dätwylers" />
     <link rel="stylesheet" type="text/css" href="../css/component.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="../js/modernizr.custom.js"></script>
     <script src="../js/classie.js"></script>
     <script src="../js/gnmenu.js"></script>    
