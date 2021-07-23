@@ -325,10 +325,15 @@ footer {
   padding-top: 2%;
   padding-bottom: 2%;
   box-shadow: 0px 4px 16px 0px black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.arrow-icon{
+.arrow-icon {
   padding-right: 5px;
+}
+
+.themes-content-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media screen and (max-width: 850px) {
@@ -421,7 +426,7 @@ footer {
   width: 100%;
 }
 
-.btn-container{
+.btn-container {
   margin: 0;
 }
 
@@ -432,10 +437,9 @@ footer {
   color: black;
 }
 
-.download-icon{
+.download-icon {
   padding-left: 5px;
 }
-
 
 @media screen and (max-width: 560px) {
   .collapsible-container {
@@ -444,89 +448,104 @@ footer {
   }
 }
 
-
 /* Security Tips */
- 
+
 .security-h2 {
   font-weight: bold;
   font-size: 2rem;
 }
- 
+
 .security-p {
   font-size: 1rem;
   font-weight: normal;
   font-family: 'Reenie Beanie';
   font-size: 2rem;
 }
- 
-.security-ul,.security-li{
-  list-style:none;
+
+.security-ul, .security-li {
+  list-style: none;
 }
-.security-ul{
+
+.security-ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.security-ul .security-li .security-a{
-  text-decoration:none;
-  color:#000;
-  background:#ffc;
-  display:block;
-  height:10em;
-  width:10em;
-  padding:1em;  
-  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+
+.security-ul .security-li .security-a {
+  text-decoration: none;
+  color: #000;
+  background: #ffc;
+  display: block;
+  height: 10em;
+  width: 10em;
+  padding: 1em;
+  box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
   transform: rotate(-6deg);
   transition: transform .15s linear;
 }
-.security-ul .security-li:nth-child(even) .security-a{
-  transform:rotate(4deg);
-  position:relative;
-  top:5px;
-  background:#cfc;
-}
-.security-ul .security-li:nth-child(3n) .security-a{
-  transform:rotate(-3deg);
-  position:relative;
-  top:-5px;
-  background:#ccf;
-}
-.security-ul .security-li:nth-child(5n) .security-a{
-  transform:rotate(5deg);
-  position:relative;
-  top:-10px;
-}
-.security-ul .security-li{
-  margin:1em;
-}
-.security-ul .security-li .security-a:hover,.security-ul .security-li .security-a:focus{
-  box-shadow:10px 10px 7px rgba(0,0,0,.7);
-  transform:scale(1.25);
-  position:relative;
-  z-index:5;
+
+.security-ul .security-li:nth-child(even) .security-a {
+  transform: rotate(4deg);
+  position: relative;
+  top: 5px;
+  background: #cfc;
 }
 
-.security-ul{
+.security-ul .security-li:nth-child(3n) .security-a {
+  transform: rotate(-3deg);
+  position: relative;
+  top: -5px;
+  background: #ccf;
+}
+
+.security-ul .security-li:nth-child(5n) .security-a {
+  transform: rotate(5deg);
+  position: relative;
+  top: -10px;
+}
+
+.security-ul .security-li {
+  margin: 1em;
+}
+
+.security-ul .security-li .security-a:hover, .security-ul .security-li .security-a:focus {
+  box-shadow: 10px 10px 7px rgba(0, 0, 0, .7);
+  transform: scale(1.25);
+  position: relative;
+  z-index: 5;
+}
+
+.security-ul {
   padding: 0;
   margin-top: 75px;
 }
 
-
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Content */
+
 .modal-content {
   background-color: #fefefe;
   margin: auto;
@@ -536,6 +555,7 @@ footer {
 }
 
 /* The Close Button */
+
 .close {
   color: #aaaaaa;
   float: right;
@@ -543,8 +563,7 @@ footer {
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close:hover, .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;

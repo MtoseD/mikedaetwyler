@@ -18,7 +18,7 @@
 
 <!-- Social Media Buttons -->
 <div class="buttons">
-    <a class="btn" href="mailto:mike.daetwyler@bluewin.ch" target="_blanket">
+    <a class="btn" href="https://www.linkedin.com/in/mike-daetwyler/" target="_blanket">
         <i class="fab fa-linkedin"></i>
     </a>
     <a class="btn" href="https://www.xing.com/profile/Mike_Daetwyler/cv" target="_blanket">
