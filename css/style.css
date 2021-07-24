@@ -336,6 +336,29 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.themes-content-table-container {
+  overflow-x: auto;
+}
+
+.themes-content-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.themes-content-table, .themes-content-table th, .themes-content-table td {
+  border: 1px solid #ddd;
+}
+
+.themes-content-table th, .themes-content-table td {
+  padding: .75rem;
+}
+
+.table-heading {
+  color: #fff;
+  background-color: #343a40;
+}
+
 @media screen and (max-width: 850px) {
   .themes-title:before {
     display: inline-block;
@@ -642,27 +665,4 @@ footer {
 
 .helpfulLink-container-first {
   margin-top: 100px;
-}
-
-.themes-content-table-container {
-  overflow-x: auto;
-}
-
-.themes-content-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-}
-
-.themes-content-table, .themes-content-table th, .themes-content-table td {
-  border: 1px solid #ddd;
-}
-
-.themes-content-table th, .themes-content-table td {
-  padding: .75rem;
-}
-
-.table-heading {
-  color: #fff;
-  background-color: #343a40;
 }
