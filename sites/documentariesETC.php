@@ -22,6 +22,42 @@
         </object>
     </div>
 
+    <button class="collapsible">Raspberry Pi - Objekterkennung</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
+    <button class="collapsible">Arduino Project</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
+    <button class="collapsible">GitHub - Integration</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
+    <button class="collapsible">Tastenkombinationen</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/Tastenkombination.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/Tastenkombination.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
     <button class="collapsible">ÜK 105 - Zusammenfassung</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
@@ -31,46 +67,17 @@
         </object>
     </div>
 
-    <button class="collapsible"></button>
+    <button class="collapsible">ÜK 330 - Zusammenfassung</button>
     <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+        <object class="collapsible-object" data="../documents/ÜK 330 - Spick.pdf" type="application/pdf">
             <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+                <a href="../documents/ÜK 330 - Spick.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
             </div>
         </object>
     </div>
-    <button class="collapsible"></button>
-    <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
-            <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
-            </div>
-        </object>
-    </div>
-    <button class="collapsible"></button>
-    <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
-            <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
-            </div>
-        </object>
-    </div>
-    <button class="collapsible"></button>
-    <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
-            <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
-            </div>
-        </object>
-    </div>
-    <button class="collapsible"></button>
-    <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
-            <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
-            </div>
-        </object>
-    </div>
+
+             
+    
     <button class="collapsible"></button>
     <div class="content">
         <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">

@@ -28,12 +28,12 @@ footer {
   margin: 1%;
 }
 
-.footerDonationLink{
+.footerDonationLink {
   text-decoration: none;
   color: black;
 }
 
-.donation-icon{
+.donation-icon {
   padding-right: 5px;
   color: #5f5f5f;
 }
@@ -642,4 +642,27 @@ footer {
 
 .helpfulLink-container-first {
   margin-top: 100px;
+}
+
+.themes-content-table-container {
+  overflow-x: auto;
+}
+
+.themes-content-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.themes-content-table, .themes-content-table th, .themes-content-table td {
+  border: 1px solid #ddd;
+}
+
+.themes-content-table th, .themes-content-table td {
+  padding: .75rem;
+}
+
+.table-heading {
+  color: #fff;
+  background-color: #343a40;
 }

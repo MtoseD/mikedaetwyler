@@ -15,6 +15,13 @@
     </div>
   </a>
 </div>
+<div class="helpfulLink-container">
+  <a class="helpfulLink" href="https://fersch.de/" target="_blank">
+    <div class="helpfulLink-content">
+      Physik Formelsammlung
+    </div>
+  </a>
+</div>
 </div>
 <div class="helpfulLink-container">
   <a class="helpfulLink" href="https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/playlists" target="_blank">
@@ -52,7 +59,7 @@
   </a>
 </div>
 <div class="helpfulLink-container">
-  <a class="helpfulLink" href="https://getbootstrap.com/" target="_blank">
+  <a class="helpfulLink" href="https://www.hostpoint.ch/domains/domains.html" target="_blank">
     <div class="helpfulLink-content">
       Domain kaufen für deine Website
     </div>
