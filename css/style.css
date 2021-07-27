@@ -620,6 +620,7 @@ footer {
 
 /* Helpful Links */
 
+/*
 .helpfulLink {
   text-decoration: none;
   color: rgb(0, 22, 63);
@@ -634,8 +635,6 @@ footer {
 
 .helpfulLink-content {
   background-color: white;
-  /*border: 1px solid black;
-  border-radius: 10px;*/
   padding: 1%;
   box-shadow: 0px 2px 8px 0px black;
   font-size: x-large;
@@ -668,8 +667,76 @@ footer {
   .helpfulLink-container {
     margin-top: 7%;
   }
+}*/
+
+.helpfulLink-container {
+  margin-top: 100px;
+  background-color: white;
+  padding: 1%;
+  padding-bottom: 50px;
+  box-shadow: 0px 2px 8px 0px black;
+  border-radius: 7.5px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.helpfulLink-container-first {
-  margin-top: 100px;
+.helpfulLink-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+.helpfulLink-table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.helpfulLink-table td {
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.link-td{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.helpfulLink-table i{
+  float: right;
+  padding-left: 15px;
+  font-size: medium;
+}
+
+.helpfulLink-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.helpfulLink {
+  font-size: x-large;
+  font-family: 'Lato', Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(0, 22, 63);
+}
+
+@media screen and (max-width: 1200px) {
+  .helpfulLink-container{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .helpfulLink {
+    font-size: large;
+  }
+}
+@media screen and (max-width: 800px) {
+  .helpfulLink-table i {
+    visibility: hidden;
+    padding-left: 0;
+  }
 }
