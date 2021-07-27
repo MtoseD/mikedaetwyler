@@ -232,6 +232,7 @@ footer {
 
 .themes-title {
   text-align: center;
+  font-family: sans-serif;
 }
 
 .themes-title:before {
@@ -297,7 +298,8 @@ footer {
   padding-left: 20px;
   padding-right: 20px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'Lato', Arial, sans-serif;
   color: black;
   display: block
 }
@@ -620,55 +622,6 @@ footer {
 
 /* Helpful Links */
 
-/*
-.helpfulLink {
-  text-decoration: none;
-  color: rgb(0, 22, 63);
-}
-
-.helpfulLink-container {
-  margin-top: 2%;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
-  text-align: center;
-}
-
-.helpfulLink-content {
-  background-color: white;
-  padding: 1%;
-  box-shadow: 0px 2px 8px 0px black;
-  font-size: x-large;
-  font-family: 'Lato', Arial, sans-serif;
-}
-
-.helpfulLink-content:hover {
-  background-color: rgb(231, 231, 231);
-}
-
-@media screen and (max-width: 1150px) {
-  .helpfulLink-content {
-    font-size: large;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .helpfulLink-container {
-    margin-top: 4%;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .helpfulLink-container {
-    margin-top: 5%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .helpfulLink-container {
-    margin-top: 7%;
-  }
-}*/
-
 .helpfulLink-container {
   margin-top: 100px;
   background-color: white;
@@ -700,14 +653,14 @@ footer {
   border-bottom: 1px solid #ddd;
 }
 
-.link-td{
+.link-td {
   margin: 0;
   padding: 0;
   height: 100%;
   width: 100%;
 }
 
-.helpfulLink-table i{
+.helpfulLink-table i {
   float: right;
   padding-left: 15px;
   font-size: medium;
@@ -725,15 +678,17 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-  .helpfulLink-container{
+  .helpfulLink-container {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .helpfulLink {
     font-size: large;
   }
 }
+
 @media screen and (max-width: 800px) {
   .helpfulLink-table i {
     visibility: hidden;
