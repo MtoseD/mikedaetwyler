@@ -8,13 +8,13 @@
     </div>
   </a>
 </div>
-<div class="helpfulLink-container">
+<!-- <div class="helpfulLink-container">
   <a class="helpfulLink" href="https://bs.gianbucher.ch/" target="_blank">
     <div class="helpfulLink-content">
     Zusammenfassungen: Berufsschule Informatiker Systemtchnik EFZ
     </div>
   </a>
-</div>
+</div> -->
 <div class="helpfulLink-container">
   <a class="helpfulLink" href="https://fersch.de/" target="_blank">
     <div class="helpfulLink-content">

@@ -4,6 +4,8 @@
 
 
 <div class="collapsible-container">
+    <h2 class="documentaries-title-first">Eigene Projekte</h2>
+
     <button class="collapsible collapsible-first">Raspberry Pi - LAMP Server</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/Raspberry Pi - LAMP Server.pdf" type="application/pdf">
@@ -40,6 +42,8 @@
         </object>
     </div>
 
+    <h2 class="documentaries-title">Allgemeines</h2>
+
     <button class="collapsible">GitHub - Integration</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
@@ -57,6 +61,8 @@
             </div>
         </object>
     </div>
+
+    <h2 class="documentaries-title">Informatiker - Lehre</h2>
 
     <button class="collapsible">ÜK 105 - Zusammenfassung</button>
     <div class="content">
@@ -76,8 +82,8 @@
         </object>
     </div>
 
-             
-    
+
+
     <button class="collapsible"></button>
     <div class="content">
         <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">

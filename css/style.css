@@ -399,13 +399,19 @@ footer {
 
 /* Documentaries etc. */
 
+.documentaries-title-first {
+  margin-top: 80px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.documentaries-title {
+  margin-top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .collapsible-container {
   margin-left: 12.5%;
   margin-right: 12.5%;
-}
-
-.collapsible-first {
-  margin-top: 100px;
 }
 
 .collapsible {
@@ -465,6 +471,7 @@ footer {
 }
 
 @media screen and (max-width: 560px) {
+  .documentaries-title {}
   .collapsible-container {
     margin-left: 7%;
     margin-right: 7%;
@@ -627,8 +634,8 @@ footer {
 
 .helpfulLink-content {
   background-color: white;
-  border: 1px solid black;
-  border-radius: 10px;
+  /*border: 1px solid black;
+  border-radius: 10px;*/
   padding: 1%;
   box-shadow: 0px 2px 8px 0px black;
   font-size: x-large;
