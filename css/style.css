@@ -622,14 +622,22 @@ footer {
 
 /* Helpful Links */
 
+.helpfulLink-site {
+  padding-top: 160px;
+  padding-bottom: 7%;
+  margin-bottom: -7%;
+  background: #dedede;
+}
+
 .helpfulLink-container {
-  margin-top: 100px;
-  background-color: white;
+  margin-top: -40px;
   padding: 1%;
   padding-bottom: 50px;
-  box-shadow: 0px 2px 8px 0px black;
-  border-radius: 7.5px;
-  width: 75%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur( 20.0px);
+  -webkit-backdrop-filter: blur( 20.0px);
+  border-radius: 10px;
+  width: 55%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -650,7 +658,7 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(202, 202, 202);
 }
 
 .link-td {
@@ -667,7 +675,7 @@ footer {
 }
 
 .helpfulLink-table tr:hover {
-  background-color: #f5f5f5;
+  background-color: #ffffff48;
 }
 
 .helpfulLink {
@@ -677,9 +685,25 @@ footer {
   color: rgb(0, 22, 63);
 }
 
+@media screen and (max-width: 1650px) {
+  .helpfulLink-container {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .helpfulLink-container {
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .helpfulLink-container {
     width: 90%;
+    margin-top: -70px;
+  }
+  .helpfulLink-site {
+    background: #d2d2d2;
   }
 }
 
