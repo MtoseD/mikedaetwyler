@@ -4,7 +4,6 @@
 
 <!-- Post-Its -->
 <ul class="security-ul">
-
   <li class="security-li">
     <a class="security-a" href="#openModal1">
       <h2 class="security-h2">Windows Login</h2>
