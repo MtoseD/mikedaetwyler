@@ -3,7 +3,7 @@
 
 <!-- Themes Inhalt -->
 <div class="themes-container">
-    <h1 class="themes-title">Inhaltsverzeichniss</h1>
+    <h1 class="themes-title">Inhaltsverzeichnis</h1>
 
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Suche nach Themen..." title="Type in a name">
 

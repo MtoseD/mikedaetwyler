@@ -473,7 +473,6 @@ footer {
 }
 
 @media screen and (max-width: 560px) {
-  .documentaries-title {}
   .collapsible-container {
     margin-left: 7%;
     margin-right: 7%;
@@ -484,7 +483,7 @@ footer {
 
 .security-h2 {
   font-weight: bold;
-  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .security-p {
@@ -492,6 +491,14 @@ footer {
   font-weight: normal;
   font-family: 'Reenie Beanie';
   font-size: 2rem;
+}
+
+.security-p-ul {
+  padding-left: 10%;
+}
+
+.security-p-ul li {
+  margin-bottom: 3%;
 }
 
 .security-ul, .security-li {
@@ -506,29 +513,31 @@ footer {
 
 .security-ul .security-li .security-a {
   text-decoration: none;
-  color: #000;
-  background: #ffc;
+  color: rgba(245, 245, 245, 0.959);
+  background: #8ca3a5;
   display: block;
-  height: 10em;
-  width: 10em;
+  height: 15em;
+  width: 15em;
   padding: 1em;
+  padding-top: 0.1em;
   box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
   transform: rotate(-6deg);
   transition: transform .15s linear;
+  border-radius: 5px;
 }
 
 .security-ul .security-li:nth-child(even) .security-a {
   transform: rotate(4deg);
   position: relative;
   top: 5px;
-  background: #cfc;
+  background: #99A3A4;
 }
 
 .security-ul .security-li:nth-child(3n) .security-a {
   transform: rotate(-3deg);
   position: relative;
   top: -5px;
-  background: #ccf;
+  background: #85929E;
 }
 
 .security-ul .security-li:nth-child(5n) .security-a {
@@ -538,7 +547,7 @@ footer {
 }
 
 .security-ul .security-li {
-  margin: 1em;
+  margin: 1.5em;
 }
 
 .security-ul .security-li .security-a:hover, .security-ul .security-li .security-a:focus {
@@ -550,55 +559,7 @@ footer {
 
 .security-ul {
   padding: 0;
-  margin-top: 75px;
-}
-
-.modal {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  padding-top: 100px;
-  /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-/* Modal Content */
-
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
-
-/* The Close Button */
-
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover, .close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
+  margin-top: 100px;
 }
 
 /* Twitter Feed */
@@ -606,8 +567,8 @@ footer {
 .twitterFeed {
   background-color: white;
   margin-top: 100px;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  margin-left: 17%;
+  margin-right: 17%;
   margin-bottom: 70px;
   padding: 2%;
   box-shadow: 0px 4px 16px 0px black;
@@ -719,3 +680,61 @@ footer {
     padding-left: 0;
   }
 }
+
+/**/
+
+.modalDialog {
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modalDialog>div {
+  width: 70%;
+  position: relative;
+  margin: 10% auto;
+  padding: 5px 20px 13px 20px;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur( 20.0px);
+  -webkit-backdrop-filter: blur( 20.0px);
+  border-radius: 10px;
+}
+
+
+.close {
+  color: #929292;
+  position: absolute;
+  right: -1px;
+  text-align: center;
+  width: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12.5px;
+  -moz-border-radius: 12.5px;
+  border-radius: 12.5px;
+}
+
+.close i{
+  font-size: 1.2em;
+}
+
+.close:hover {
+  color: #1b1b1b;
+}
+
