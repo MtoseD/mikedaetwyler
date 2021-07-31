@@ -562,6 +562,10 @@ footer {
   margin-top: 100px;
 }
 
+.modal-title{
+  text-align: center;
+}
+
 /* Twitter Feed */
 
 .twitterFeed {
@@ -683,6 +687,11 @@ footer {
 
 /**/
 
+body.modalDialog{
+  overflow: hidden;
+  position: fixed;
+}
+
 .modalDialog {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -697,6 +706,7 @@ footer {
   -moz-transition: opacity 400ms ease-in;
   transition: opacity 400ms ease-in;
   pointer-events: none;
+  overflow: scroll;
 }
 
 .modalDialog:target {
@@ -715,7 +725,6 @@ footer {
   -webkit-backdrop-filter: blur( 20.0px);
   border-radius: 10px;
 }
-
 
 .close {
   color: #929292;
@@ -736,4 +745,10 @@ footer {
 
 .close:hover {
   color: #1b1b1b;
+}
+
+@media screen and (max-width: 800px) {
+  .modalDialog>div {
+    width: 90%;
+  }
 }
