@@ -11,7 +11,6 @@
     <meta name="author" content="Mike Dätwylers" />
     <link rel="stylesheet" type="text/css" href="../css/component.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" type="text/css" href="../css/glow_template.css">
     <script src="../js/modernizr.custom.js"></script>
     <script src="../js/classie.js"></script>
     <script src="../js/gnmenu.js"></script>

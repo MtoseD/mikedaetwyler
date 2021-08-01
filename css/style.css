@@ -230,12 +230,12 @@ footer {
 
 /* Themes */
 
-.themes-title {
+.themes-tbContent-title {
   text-align: center;
   font-family: sans-serif;
 }
 
-.themes-title:before {
+.themes-tbContent-title:before {
   display: inline-block;
   margin: 0 20px 8px 0;
   height: 3px;
@@ -245,7 +245,7 @@ footer {
   width: 20%;
 }
 
-.themes-title:after {
+.themes-tbContent-title:after {
   display: inline-block;
   margin: 0 0 8px 20px;
   height: 3px;
@@ -334,7 +334,7 @@ footer {
   padding-right: 5px;
 }
 
-.themes-content-title {
+.themes-title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -361,8 +361,20 @@ footer {
   background-color: #343a40;
 }
 
+.themes-picture{
+  border: solid 1px black;
+  height: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px){
+  .themes-picture{
+    width: 75%;
+  }
+}
+
 @media screen and (max-width: 850px) {
-  .themes-title:before {
+  .themes-tbContent-title:before {
     display: inline-block;
     margin: 0 20px 8px 0;
     height: 3px;
@@ -370,7 +382,7 @@ footer {
     text-shadow: none;
     width: 0;
   }
-  .themes-title:after {
+  .themes-tbContent-title:after {
     display: inline-block;
     margin: 0 0 8px 20px;
     height: 3px;
@@ -385,16 +397,19 @@ footer {
   .themes-container-content {
     margin-top: 50px;
   }
+  .themes-picture{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 470px) {
-  .themes-title, .themes-content-title {
+  .themes-tbContent-title, .themes-title {
     font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 370px) {
-  .themes-title {
+  .themes-tbContent-title {
     font-size: 1.25em;
   }
 }

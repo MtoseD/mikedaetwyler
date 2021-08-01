@@ -3,7 +3,7 @@
 
 <!-- Themes Inhalt -->
 <div class="themes-container">
-    <h1 class="themes-title">Inhaltsverzeichnis</h1>
+    <h1 class="themes-tbContent-title">Inhaltsverzeichnis</h1>
 
     <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Suche nach Themen..." title="Type in a name">
 
@@ -41,7 +41,7 @@
 <!-- Bildauflösungen -->
 <div class="themes-id" id="imgResolution">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">Bildauflösungen</h1>
+    <h1 class="themes-title">Bildauflösungen</h1>
     <p>
     <div class="themes-content-table-container">
         <table class="themes-content-table">
@@ -157,7 +157,7 @@
 <!-- Bildtechnologien -->
 <div class="themes-id" id="imgTechnology">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">Bildtechnologien</h1>
+    <h1 class="themes-title">Bildtechnologien</h1>
     <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         <br><br>
@@ -168,7 +168,7 @@
 <!-- Browser -->
 <div class="themes-id" id="browser">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">Browser</h1>
+    <h1 class="themes-title">Browser</h1>
     <h3 class="themes-content-title">Definition</h3>
     <p>
         Browser oder auch Webbrowser (engl. to browse = stöbern...) sind spezielle Computerprogramme zur Darstellung von Webseiten
@@ -196,7 +196,7 @@
 <!-- Fake News -->
 <div class="themes-id" id="fakeNews">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">Fake News</h1>
+    <h1 class="themes-title">Fake News</h1>
     <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         <br><br>
@@ -207,7 +207,7 @@
 <!-- Raspberry Pi vs Arduino -->
 <div class="themes-id" id="raspiVSarudino">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">Raspberry Pi vs Arduino</h1>
+    <h1 class="themes-title">Raspberry Pi vs Arduino</h1>
     <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         <br><br>
@@ -218,7 +218,7 @@
 <!-- VPN -->
 <div class="themes-id" id="vpn">placeholder</div>
 <div class="themes-container-content">
-    <h1 class="themes-content-title">VPN</h1>
+    <h1 class="themes-title">VPN</h1>
     <h3 class="themes-content-title">Was ist VPN und wie funktioniert es?</h3>
     <p>
         VPN steht für "Virtual Private Network" und beschreibt die Möglichkeit eine geschützte Netzwerkverbindung unter Nutzung
@@ -234,6 +234,7 @@
         oder welche Informationen Sie im Internet eingeben. Ein VPN funktioniert wie ein Filter, der alle Daten, die Sie senden und empfangen,
         in „Kauderwelsch“ verwandelt. Selbst wenn jemand diese Daten in die Hände bekäme, wären sie nutzlos.
     </p>
+    <img class="themes-picture" src="../images/vpn.png" alt="Bild - Wie funktioniert VPN?">
     <h3 class="themes-content-title">Zugriff auf regionale Inhalte</h3>
     <p>
         Regionale Webinhalte sind nicht immer für den Zugriff von überall aus freigeschaltet.
