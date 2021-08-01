@@ -53,7 +53,7 @@
                                     Dokumentationen etc.
                                 </a>
                             </li>
-                            <li><a href="../sites/securityTips.php"><i class="fas fa-fingerprint icon-navbar"></i>
+                            <li><a href="../sites/securityStuff.php"><i class="fas fa-fingerprint icon-navbar"></i>
                                     Security Tipps
                                 </a>
                             <li><a href="../sites/twitterFeed.php"><i class="fab fa-twitter icon-navbar"></i>

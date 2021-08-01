@@ -25,7 +25,13 @@
   <li class="security-li">
     <a class="security-a" href="themes.php#vpn">
       <h2 class="security-h2">VPN</h2>
-      <p class="security-p"></p>
+      <p class="security-p">
+        <ul class="security-p-ul">
+          <li>Was ist VPN?</li>
+          <li>Wie funktioniert VPN?</li>
+          <li>Zugriff auf regionale Inhalte</li>
+        </ul>
+      </p>
     </a>
   </li>
   <li class="security-li">

@@ -219,7 +219,7 @@
 <div class="themes-id" id="vpn">placeholder</div>
 <div class="themes-container-content">
     <h1 class="themes-title">VPN</h1>
-    <h3 class="themes-content-title">Was ist VPN und wie funktioniert es?</h3>
+    <h3 class="themes-content-title">Was ist VPN?</h3>
     <p>
         VPN steht für "Virtual Private Network" und beschreibt die Möglichkeit eine geschützte Netzwerkverbindung unter Nutzung
         öffentlicher Netzwerke aufzubauen. VPNs verschlüsseln Ihren Internetverkehr und verschleiern Ihre Online-Identität.
