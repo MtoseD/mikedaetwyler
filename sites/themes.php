@@ -11,7 +11,7 @@
         <li><a href="#imgResolution">Bildauflösungen</a></li>
         <li><a href="#imgTechnology">Bildtechnologien</a></li>
         <li><a href="#browser">Browser</a></li>
-        <li><a href="#fakeNews">Fake News</a></li>
+        <!-- <li><a href="#fakeNews">Fake News</a></li> -->
         <li><a href="#raspiVSarudino">Raspberry Pi vs Arduino</a></li>
         <li><a class="myUL-last" href="#vpn">VPN</a></li>
     </ul>
@@ -200,10 +200,11 @@
                     <td>schnellere Reaktionszeit sowie bessere Farben & Bildqualität als LED</td>
                     <td>Fernseher</td>
                 </tr>
-                <th><u>OLED</u></th>
-                <td>Organic Light Emitting Diodes</td>
-                <td>sehr dünne Displays möglich</td>
-                <td>Fernseher</td>
+                <tr>
+                    <th><u>OLED</u></th>
+                    <td>Organic Light Emitting Diodes</td>
+                    <td>sehr dünne Displays möglich</td>
+                    <td>Fernseher</td>
                 </tr>
                 <tr>
                     <th>TFT</th>
@@ -214,7 +215,7 @@
                 <tr>
                     <th>MVA</th>
                     <td>Multi-Domain Vertical Alignment</td>
-                    <td>Eingesetzt bei der Verwendung von CAD und Ähnlichem</td>
+                    <td>eingesetzt bei der Verwendung von CAD und Ähnlichem</td>
                     <td>Monitor</td>
                 </tr>
                 <tr>
@@ -226,7 +227,7 @@
                 <tr>
                     <th>VA</th>
                     <td>Vertical-Alignment</td>
-                    <td>Hoher Farbkontrast</td>
+                    <td>hoher Farbkontrast</td>
                     <td>Monitor</td>
                 </tr>
                 <tr>
@@ -268,7 +269,7 @@
         als Internetsurfen bezeichnet. Neben HTML-Seiten können Webbrowser verschiedene andere Arten von Dokumenten wie zum Beispiel
         Bilder und PDF-Dokumente anzeigen. Webbrowser stellen die Benutzeroberfläche für Webanwendungen dar.
 
-    </p>
+    </p> <br>
     <h3 class="themes-content-title">Geschichte</h3>
     <p>
         Tim Berners-Lee, ein Pionier des Hypertextes, entwickelte ab 1989 am CERN bei Genf (Schweiz) den ersten Webbrowser und -editor
@@ -277,14 +278,14 @@
         Line Mode Browsers, der nur Text darstellen konnte, dafür aber auf "praktisch allen" Rechnern lief. Weihnachten 1990 waren
         beide Browser präsentationsreif. Im August 1991 machte Berners-Lee das Projekt und beide Browser in der Newsgruppe alt.hypertext
         öffentlich bekannt.
-        <br><br>
+        <br><br><br>
         <i class="arrow-icon fas fa-arrow-right"></i>Bekannte Browser sind beispielsweise: Google Chrome, Microsoft Edge, Mozilla Firefox, Safari, Opera...
         <br><br>
         <b>Quellen:</b> <a href="https://de.wikipedia.org/wiki/Webbrowser" target="_blank">de.wikipedia.org</a>
     </p>
 </div>
 
-<!-- Fake News -->
+<!-- Fake News 
 <div class="themes-id" id="fakeNews">placeholder</div>
 <div class="themes-container-content">
     <h1 class="themes-title">Fake News</h1>
@@ -293,17 +294,21 @@
         <br><br>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
-</div>
+</div>-->
 
 <!-- Raspberry Pi vs Arduino -->
 <div class="themes-id" id="raspiVSarudino">placeholder</div>
 <div class="themes-container-content">
     <h1 class="themes-title">Raspberry Pi vs Arduino</h1>
+    <h3 class="themes-content-title">Raspberry Pi</h3>
     <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        <br><br>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+        
+    </p>    
+    <h3 class="themes-content-title">Arduino</h3>
+    <p>
+        
     </p>
+    <h3 class="themes-content-title">Was ist VPN?</h3>
 </div>
 
 <!-- VPN -->
@@ -315,8 +320,8 @@
         VPN steht für "Virtual Private Network" und beschreibt die Möglichkeit eine geschützte Netzwerkverbindung unter Nutzung
         öffentlicher Netzwerke aufzubauen. VPNs verschlüsseln Ihren Internetverkehr und verschleiern Ihre Online-Identität.
         Damit erschweren sie es Dritten, Ihre Spuren im Internet zu verfolgen und Daten zu stehlen. Die Verschlüsselung findet dabei
-        in Echtzeit statt.<br>
-    </p>
+        in Echtzeit statt.
+    </p><br>
     <h3 class="themes-content-title">Wie funktioniert VPN?</h3>
     <p>
         Ein VPN verbirgt Ihre IP-Adresse, indem das Netz sie über einen speziell konfigurierten Remote-Server umleitet, der von einem VPN-Host
@@ -325,7 +330,7 @@
         oder welche Informationen Sie im Internet eingeben. Ein VPN funktioniert wie ein Filter, der alle Daten, die Sie senden und empfangen,
         in „Kauderwelsch“ verwandelt. Selbst wenn jemand diese Daten in die Hände bekäme, wären sie nutzlos.
     </p>
-    <img class="themes-picture" src="../images/vpn.png" alt="Bild - Wie funktioniert VPN?">
+    <img class="themes-picture" src="../images/vpn.png" alt="Bild - Wie funktioniert VPN?"> <br> <br>
     <h3 class="themes-content-title">Zugriff auf regionale Inhalte</h3>
     <p>
         Regionale Webinhalte sind nicht immer für den Zugriff von überall aus freigeschaltet.
@@ -334,7 +339,7 @@
         zu Hause und von zu Hause nicht auf internationale Inhalte zugreifen können. Mit VPN-Standort-Spoofing können Sie auf einen Server
         in anderen Ländern wechseln und Ihren Standort effektiv „ändern“. <br>
         Somit kann man sich Inhalte, welche bspw. auf Netflix nur in den USA erhältlich ist, auch in der Schweiz ansehen.
-    </p>
+    </p><br>
     <i class="arrow-icon fas fa-arrow-right"></i>Bekannte VPN-Anbieter sind beispielsweise: NordVPN, CyberGhost VPN, ProtonVPN...
     <br><br>
     <b>Quellen:</b> <a href="https://www.kaspersky.de/resource-center/definitions/what-is-a-vpn" target="_blank">kaspersky.de</a>
