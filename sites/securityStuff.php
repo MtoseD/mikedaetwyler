@@ -69,15 +69,15 @@
       Wechseldatenträger. Die gespeicherten Daten sind gegen Diebstahl und unbefugtes Lesen geschützt. <br><br>
 
       Eine andere Möglichkeit ist Secure Boot im
-      <a href="https://de.wikipedia.org/wiki/BIOS#:~:text=Das%20BIOS%20%5B%CB%88ba%C9%AA.,PC%20und%20%2Dkompatible%20eingef%C3%BChrt%20wurden.&text=Aufgabe%20des%20BIOS%20ist%20es,das%20Starten%20eines%20Betriebssystems%20einzuleiten.">BIOS</a>
+      <a href="https://de.wikipedia.org/wiki/BIOS#:~:text=Das%20BIOS%20%5B%CB%88ba%C9%AA.,PC%20und%20%2Dkompatible%20eingef%C3%BChrt%20wurden.&text=Aufgabe%20des%20BIOS%20ist%20es,das%20Starten%20eines%20Betriebssystems%20einzuleiten." target="_blank">BIOS</a>
       zu aktivieren. Secure Boot verhindert, dass sich Schadsoftware vor dem Start eines
       Betriebssystems einnisten kann. Zudem verhindert es, dass ein Medium wie bspw. ein USB-Stick einfach so ein Betriebssystem booten
       kann. <br>
       Damit diese Einstellung nicht einfach von einem potentiellen Eindringling geändert werden kann empfiehlt es sich ein
-      <a href="https://www.inonet.com/wiki/bios-passwort-erstellen/">BIOS-Passwort</a> zu setzen. <br><br>
+      <a href="https://www.inonet.com/wiki/bios-passwort-erstellen/" target="_blank">BIOS-Passwort</a> zu setzen. <br><br>
 
       Microsoft empfiehlt seit Windows 10 die Anmeldung mit einer
-      <a href="https://www.heise.de/tipps-tricks/PIN-Login-bei-Windows-10-so-funktioniert-s-3961196.html#anchor_2">PIN</a>.
+      <a href="https://www.heise.de/tipps-tricks/PIN-Login-bei-Windows-10-so-funktioniert-s-3961196.html#anchor_2" target="_blank">PIN</a>.
       Das hat vor allem sicherheitstechnische Gründe, denn eine PIN ist im Gegensatz zu einem Kennwort immer mit dem entsprechenden Gerät verknüpft.
       Wenn Sie sich mit Ihrem Microsoft-Konto an Ihrem PC anmelden, sind Benutzername und Kennwort nicht lokal auf dem Gerät gespeichert und werden bei
       der Anmeldung an einen Server übertragen. Auf dem Weg dorthin könnten die Daten von Hackern abgefangen werden, die dann Zugriff
