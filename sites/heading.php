@@ -54,7 +54,7 @@
                                 </a>
                             </li>
                             <li><a href="../sites/securityStuff.php"><i class="fas fa-fingerprint icon-navbar"></i>
-                                    Security Tipps
+                                    Security Stuff
                                 </a>
                             <li><a href="../sites/twitterFeed.php"><i class="fab fa-twitter icon-navbar"></i>
                                     Mein Twitter-Feed
