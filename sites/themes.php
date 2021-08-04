@@ -159,9 +159,100 @@
 <div class="themes-container-content">
     <h1 class="themes-title">Bildtechnologien</h1>
     <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-        <br><br>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    <div class="themes-content-table-container">
+        <table class="themes-content-table">
+            <thead>
+                <tr class="table-heading">
+                    <th>Abkürzung</th>
+                    <th>Name</th>
+                    <th>Eigenschaft/Bemerkung</th>
+                    <th>Verwendung</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>AMOLED</th>
+                    <td>Active Matrix Organic Light Emitting Diodes</td>
+                    <td>bei grossen Bildschirmen kostenintensiv und Problemmacher</td>
+                    <td>Smartphone, Smartwatch</td>
+                </tr>
+                <tr>
+                    <th>LCD</th>
+                    <td>Lyquid Crystal Display</td>
+                    <td>alte Technologie; dünne Display nicht möglich</td>
+                    <td>Fernseher, Monitor</td>
+                </tr>
+                <tr>
+                    <th>LED</th>
+                    <td>Light Emitting Diodes</td>
+                    <td>dünne Display sind möglich</td>
+                    <td>Fernseher, Monitor</td>
+                </tr>
+                <tr>
+                    <th>QLED</th>
+                    <td>Quantum Dot Light Emitting Diodes</td>
+                    <td>älter, konstrastärmer und weniger dünn als OLED</td>
+                    <td>Fernseher</td>
+                </tr>
+                <tr>
+                    <th>NanoCell</th>
+                    <td>Nano Cell</td>
+                    <td>schnellere Reaktionszeit sowie bessere Farben & Bildqualität als LED</td>
+                    <td>Fernseher</td>
+                </tr>
+                <th><u>OLED</u></th>
+                <td>Organic Light Emitting Diodes</td>
+                <td>sehr dünne Displays möglich</td>
+                <td>Fernseher</td>
+                </tr>
+                <tr>
+                    <th>TFT</th>
+                    <td>Thin Film Transistor</td>
+                    <td>Weiterentwicklung von LCD</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr>
+                    <th>MVA</th>
+                    <td>Multi-Domain Vertical Alignment</td>
+                    <td>Eingesetzt bei der Verwendung von CAD und Ähnlichem</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr>
+                    <th>TN</th>
+                    <td>Twisted-Nematic</td>
+                    <td>schnelle Reaktionszeit, dafür weniger Kontrast / keine optimale Farbardstellung; eingesetzt bei Gaming</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr>
+                    <th>VA</th>
+                    <td>Vertical-Alignment</td>
+                    <td>Hoher Farbkontrast</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr>
+                    <th>PLS</th>
+                    <td>Plane to Line Switching</td>
+                    <td>vergleichbar mit IPS; Herstellung von Samsung</td>
+                    <td>Monitor</td>
+                </tr>
+                <tr>
+                    <th><u>IPS</u></th>
+                    <td>In-Plane Switching</td>
+                    <td>kürzere Reaktionszeit, höhere Farbwerte, energieeffizienter und hitzeresistenter als VA; der Alleskönner</td>
+                    <td>Monitor</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br>
+    <b>Quellen:</b>
+    <a href="https://de.wikipedia.org/wiki/Bildaufl%C3%B6sung" target="_blank">de.wikipedia.org</a>;
+    <a href="https://www.interelectronix.com/de/displayunterschiede-oled-lcd-oder-amoled-kurz-erklaert.html#:~:text=AMOLED%20(englisch%3A%20Active%20Matrix%20Organic,und%20so%20eine%20Farbe%20darstellen" target="_blank">interelectronix.com</a>;
+    <a href="https://www.professional-system.de/basics/display-technologien-erklaert-lcd-led-oled-quantum-dot/" target="_blank">screenimage.ch</a>;
+    <a href="https://screenimage.ch/blog/bildschirmtechnologien-led-lcd-und-oled/" target="_blank">screenimage.ch</a>;
+    <a href="https://www.stern.de/digital/technik/qled-versus-oled--welche-technik-ist-besser--9282242.html" target="_blank">stern.de</a>;
+    <a href="https://trendblog.euronics.de/gaming/gaming-monitore-was-ist-die-beste-display-technologie-91685/" target="_blank">trendblog.euronics.de</a>;
+    <a href="https://praxistipps.chip.de/ips-oder-va-panel-so-entscheiden-sie-richtig_47383https://www.testberichte.de/computer-hardware/2619/monitore/artikel/die-richtige-paneltechnologie-waehlen.html" target="_blank">praxistipps.chip.de</a>
     </p>
 </div>
 
@@ -176,7 +267,7 @@
         aufeinanderfolgende Abrufen beliebiger Hyperlinks als Verbindung zwischen Webseiten mit Hilfe solch eines Programms, wird auch
         als Internetsurfen bezeichnet. Neben HTML-Seiten können Webbrowser verschiedene andere Arten von Dokumenten wie zum Beispiel
         Bilder und PDF-Dokumente anzeigen. Webbrowser stellen die Benutzeroberfläche für Webanwendungen dar.
-        
+
     </p>
     <h3 class="themes-content-title">Geschichte</h3>
     <p>

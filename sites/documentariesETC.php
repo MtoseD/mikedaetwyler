@@ -33,23 +33,23 @@
         </object>
     </div>
 
-    <button class="collapsible">Arduino Project</button>
+    <!-- <button class="collapsible">Arduino Project</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
             <div class=" btn-container mail-container">
                 <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
             </div>
         </object>
-    </div>
+    </div> -->
 
     <!-- Allgemeines -->
     <h2 class="documentaries-title">Allgemeines</h2>
 
-    <button class="collapsible">GitHub - Integration</button>
+    <button class="collapsible">GitHub - Einführung</button>
     <div class="content">
-        <object class="collapsible-object" data="../documents/ÜK 105 - Zusammenfassung.pdf" type="application/pdf">
+        <object class="collapsible-object" data="../documents/GitHub - Einführung.pdf" type="application/pdf">
             <div class=" btn-container mail-container">
-                <a href="../documents/ÜK 105 - Zusammenfassung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+                <a href="../documents/GitHub - Einführung.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
             </div>
         </object>
     </div>
