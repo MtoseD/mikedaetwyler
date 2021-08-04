@@ -302,13 +302,41 @@
     <h1 class="themes-title">Raspberry Pi vs Arduino</h1>
     <h3 class="themes-content-title">Raspberry Pi</h3>
     <p>
-        
-    </p>    
+        Ein Rasperry Pi ist ein Einplatinencomputer, der über einen eigenen Arbeitsspeicher verfügt. Er hat ein eigenes Betriebssystem,
+        mit dem Programme ausgeführt und sogar Videos ausgegeben werden können, sprich, er hat einen HDMI-Anschluss.
+        Mit dem Rasperry Pi können sowohl sehr einfach als auch komplexe Aufgaben ausgeführt werden. Ein großer Nachteil ist dagegen,
+        dass die dafür benötigte Software nicht direkt mitgeliefert wird. Diese muss nach dem Kauf heruntergeladen und installiert werden. <br>
+
+        Der Raspberry Pi hat bereits alle Komponenten an Bord, um einen eigenständigen Betrieb des Minicomputers möglich zu machen.
+        Zudem sind die meisten Modelle netzwerkfähig, sprich Ethnernet und WLAN. Dadurch kann er anststatt nur als
+        Programmierungsplattform zu dienen ebenfalls für den Betrieb von Anwendungen wie bspw. VPN-Servern oder Websern etc. verwendet werden.
+    </p><br>
     <h3 class="themes-content-title">Arduino</h3>
     <p>
-        
+        Ein Arduino ist ein Mikrocontroller der lediglich kompilierten C-Code ausführen kann. Er lieftert einerseits eine fertig
+        eingebaute Prozessorleistung inkl. Peripherie, sprich Ein-/Ausgänge und Schnittstellen. Das Programmieren mit Arduino wird
+        einem erheblich erleichtert, da es eine Programmieroberfläche mit diversen fertigen Bibliotheken liefrt. Aufgrund ihrer
+        plattformunabhängigkeit werden Arduino-Bauteile nicht selten als Übungskomponenten in Schule oder Ähnlichem verwendet.
+        Das Hard-/Software-Setup ist zwar hierbei direkt einsetzbar, jedoch sobald man irgendwelche Shields hinzu ziehen möchte wird
+        das Ganze kostenspielig.
+    </p><br>
+    <h3 class="themes-content-title">Unterschied - Einsatzbereich</h3>
+    <p>
+        Praktisch bedeutet das, dass ein Arduino in der Lage ist, ein vorher aufgespieltes Programm wiederholt abzuspulen.
+        Beispiel: „Wenn ich auf eine Taste drücke, aktiviere den Rollladenmotor für zehn Sekunden.“ Der Prozess ist dabei immer gleich.
+        Der Raspberry als kompletter Rechner vermag hingegen, mehrere Programme parallel und nacheinander auszuführen. Ein Raspberry
+        könnte dem Rollladen-Programm noch mehrere Variablen hinzufügen: „Wenn ich die Taste drücke und es draußen dunkel ist,
+        schalte das Licht im Haus ein.“ Die Lichtsteuerung verlangt weitere Berechnungen und die Kombination des Befehls mit der Variable
+        Helligkeit, die über einen Sensor oder über eine Programmierschnittstelle abgerufen wird. <br><br>
+
+        Der Raspberry Pi kann in der Praxis nun also für Dashboard-Anzeige, verschiedene Server etc. verwendet werden.
+        Der Arduino hingegen wird mehr für Regelungen/Schaltungen verwendet.
     </p>
-    <h3 class="themes-content-title">Was ist VPN?</h3>
+    <br><br>
+    <b>Quellen:</b>
+    <a href="https://praxistipps.chip.de/raspberry-pi-vs-arduino-das-sind-die-unterschiede_119020" target="_blank">praxistipps.chip.de</a>;
+    <a href="https://www.techtag.de/it-und-hightech/arduino-vs-raspberry-pi-wo-liegt-der-unterschied/" target="_blank">techtag.de</a>;
+    <a href="https://www.ionos.de/digitalguide/server/knowhow/arduino-vs-raspberry-pi/" target="_blank">ionos.de</a>
 </div>
 
 <!-- VPN -->

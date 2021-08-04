@@ -11,12 +11,11 @@
         <ul class="security-p-ul">
           <li>Wie sicher ist es?</li>
           <li>Wie erhöhe ich die Sicherheit?</li>
-          <li>Secure Boot</li>
         </ul>
       </p>
     </a>
   </li>
-  <li class="security-li">
+  <!-- <li class="security-li">
     <a class="security-a" href="#openModal2">
       <h2 class="security-h2">MAC Spoofing</h2>
       <p class="security-p">
@@ -25,7 +24,7 @@
         </ul>
       </p>
     </a>
-  </li>
+  </li> -->
   <li class="security-li">
     <a class="security-a" href="themes.php#vpn">
       <h2 class="security-h2">VPN</h2>
@@ -59,12 +58,36 @@
   <div>
     <a href="#close" title="close" class="close"><i class="far fa-times-circle"></i></a>
     <h1 class="modal-title">Windows Login</h1>
-    <h3>Starke Passwörter</h3>
-    <p>This is a sample modal box that can be created using the powers of CSS3. </p>
-    <p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+    <h3>Wie sicher ist es?</h3>
+    <p>
+      Um es kurz zu fassen: <em>gar nicht</em>. In 2-3 Minuten hat man als Laie das Windows-Login-Passwort umgangen.<br><br>
+    </p>
+    <h3>Wie erhöhe ich die Sicherheit?</h3>
+    <p>
+      Einen guten Schutz bietet hierbei Bitlocker. BitLocker ist eine Sicherheitsfunktion von Microsoft, die in bestimmten Versionen
+      des Windows-Betriebssystems integriert ist. Das Feature sorgt für die Verschlüsselung der Systemlaufwerke, Festplatten oder
+      Wechseldatenträger. Die gespeicherten Daten sind gegen Diebstahl und unbefugtes Lesen geschützt. <br><br>
+
+      Eine andere Möglichkeit ist Secure Boot im
+      <a href="https://de.wikipedia.org/wiki/BIOS#:~:text=Das%20BIOS%20%5B%CB%88ba%C9%AA.,PC%20und%20%2Dkompatible%20eingef%C3%BChrt%20wurden.&text=Aufgabe%20des%20BIOS%20ist%20es,das%20Starten%20eines%20Betriebssystems%20einzuleiten.">BIOS</a>
+      zu aktivieren. Secure Boot verhindert, dass sich Schadsoftware vor dem Start eines
+      Betriebssystems einnisten kann. Zudem verhindert es, dass ein Medium wie bspw. ein USB-Stick einfach so ein Betriebssystem booten
+      kann. <br>
+      Damit diese Einstellung nicht einfach von einem potentiellen Eindringling geändert werden kann empfiehlt es sich ein
+      <a href="https://www.inonet.com/wiki/bios-passwort-erstellen/">BIOS-Passwort</a> zu setzen. <br><br>
+
+      Microsoft empfiehlt seit Windows 10 die Anmeldung mit einer
+      <a href="https://www.heise.de/tipps-tricks/PIN-Login-bei-Windows-10-so-funktioniert-s-3961196.html#anchor_2">PIN</a>.
+      Das hat vor allem sicherheitstechnische Gründe, denn eine PIN ist im Gegensatz zu einem Kennwort immer mit dem entsprechenden Gerät verknüpft.
+      Wenn Sie sich mit Ihrem Microsoft-Konto an Ihrem PC anmelden, sind Benutzername und Kennwort nicht lokal auf dem Gerät gespeichert und werden bei
+      der Anmeldung an einen Server übertragen. Auf dem Weg dorthin könnten die Daten von Hackern abgefangen werden, die dann Zugriff
+      auf alle Dienste haben, die mit Ihrem Microsoft-Konto verbunden sind - beispielsweise Outlook oder OneDrive. Eine PIN wird
+      hingegen nicht an einen Server geschickt und dort gespeichert, sondern dient einzig und allein zur Entsperrung eines
+      bestimmten Gerätes.
+    </p>
   </div>
 </div>
-<!-- MAC Spoofing -->
+<!-- MAC Spoofing 
 <div id="openModal2" class="modalDialog">
   <div>
     <a href="#close" title="close" class="close"><i class="far fa-times-circle"></i></a>
@@ -72,7 +95,7 @@
     <h3>Comming Soon</h3>
     <p></p>
   </div>
-</div>
+</div>-->
 <!-- Passwörter -->
 <div id="openModal3" class="modalDialog">
   <div>
