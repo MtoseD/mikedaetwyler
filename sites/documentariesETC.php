@@ -15,14 +15,14 @@
         </object>
     </div>
 
-    <button class="collapsible">Raspberry Pi - Mail Server</button>
+    <!-- <button class="collapsible">Raspberry Pi - Mail Server</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/Raspberry Pi - Mail Server.pdf" type="application/pdf">
             <div class=" btn-container mail-container">
                 <a href="../documents/Raspberry Pi - Mail Server.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
             </div>
         </object>
-    </div>
+    </div> -->
 
     <button class="collapsible">Raspberry Pi - Objekterkennung</button>
     <div class="content">

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mike Dätwyler</title> <!-- not good for search engine because on all sites the same -->
-    <meta name="description" content="Written by Mike Dätwyler Author, Ilustrated by Mike Dätwyler"> <!-- not good for search engine because on all sites the same -->
+    <meta name="description" content="Written by Mike Dätwyler; Ilustrated by Mike Dätwyler"> <!-- not good for search engine because on all sites the same -->
     <meta name="keywords" content="Mike Dätwyler, Mike-Dätwyler, Dätwyler, m-to-se-d.ch, MtoseD">
     <meta name="author" content="Mike Dätwylers" />
     <link rel="stylesheet" type="text/css" href="../css/component.css">
