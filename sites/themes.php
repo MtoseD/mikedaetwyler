@@ -179,13 +179,13 @@
                 <tr>
                     <th>LCD</th>
                     <td>Lyquid Crystal Display</td>
-                    <td>alte Technologie; dünne Display nicht möglich</td>
+                    <td>alte Technologie; dünne Displays nicht möglich</td>
                     <td>Fernseher, Monitor</td>
                 </tr>
                 <tr>
                     <th>LED</th>
                     <td>Light Emitting Diodes</td>
-                    <td>dünne Display sind möglich</td>
+                    <td>dünne Displays sind möglich</td>
                     <td>Fernseher, Monitor</td>
                 </tr>
                 <tr>
