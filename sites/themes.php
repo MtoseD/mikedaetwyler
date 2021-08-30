@@ -11,6 +11,7 @@
         <li><a href="#imgResolution">Bildauflösungen</a></li>
         <li><a href="#imgTechnology">Bildtechnologien</a></li>
         <li><a href="#browser">Browser</a></li>
+        <li><a href="#exeMsi">EXE vs. MSI</a></li>
         <!-- <li><a href="#fakeNews">Fake News</a></li> -->
         <li><a href="#raspiVSarudino">Raspberry Pi vs Arduino</a></li>
         <li><a class="myUL-last" href="#vpn">VPN</a></li>
@@ -283,6 +284,38 @@
         <br><br>
         <b>Quellen:</b> <a href="https://de.wikipedia.org/wiki/Webbrowser" target="_blank">de.wikipedia.org</a>
     </p>
+</div>
+
+<!-- VPN -->
+<div class="themes-id" id="exeMsi">placeholder</div>
+<div class="themes-container-content">
+    <h1 class="themes-title">EXE vs. MSI</h1>
+    <h3 class="themes-content-title">Was ist eine .exe-Datei?</h3>
+    <p>
+        Die Abkürzung und Datei-Endung „exe“ steht für den englischen Begriff „executable“, also „ausführbar“. Beim Öffnen solch einer Datei wird somit
+        eine bestimmte Aktion ausgeführt. In der Regel bezieht sich dies auf den Start eines Programms.
+    </p><br>
+    <h3 class="themes-content-title">Was ist eine .msi-Datei?</h3>
+    <p>
+        MSI-Dateien (<b>M</b>icro<b>S</b>oft<b>I</b>nstaller) sind relationale Datenbanken, deren Tabellen Binär/Text-Daten enthalten, die Steueranweisungen
+        für die Installation darstellen. Diese Datenbanken werden dann, zusammen mit den vorgenommenen Einstellungen während der Installation,
+        vom Betriebssystem verwaltet.
+    </p><br>
+    <h3 class="themes-content-title">Unterschied</h3>
+    <p>
+        EXE-Dateien sind selbstentpackende Archive mit (meistens) integriertem Installer, um die Installation durchzuführen. Bei MSI Dateien handelt
+        es sich im Prinzip um Datenbanken, die beschreiben, welchen Zustand ein System nach der Installation haben soll. Das beinhaltet Dateien,
+        Registry-Keys, ODBC-Verbindungen etc. <br>
+        EXE beschreibt also lediglich eine ausführbare Datei, während MSI auf ein Windows Installer File hindeutet. <br>
+        Ein Vorteil von MSI ist, dass man entweder eine Installation oder einen <b>Demand</b> ausführen kann. Bei einem Demand werden lediglich 
+        die Links sowie eine paar Kleinigkeiten auf den Computer übertragen. Die Installation wird erst komplett fertig gestellt nachdem der User 
+        das erste Mal das Programm ausführt. Diese Möglichkeit besteht bei einer EXE nicht.
+    </p><br><br>
+    <b>Quellen:</b> 
+    <a href="https://www.it-business.de/was-ist-eine-exe-datei-a-751483/" target="_blank">it-business.de</a>; 
+    <a href="https://de.wikipedia.org/wiki/Windows_Installer" target="_blank">de.wikipedia.org</a>; 
+    <a href="http://www.differencebetween.net/technology/software-technology/difference-between-msi-and-exe/" target="_blank">differencebetween.net</a>
+
 </div>
 
 <!-- Fake News 
