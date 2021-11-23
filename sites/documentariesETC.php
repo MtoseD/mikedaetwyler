@@ -94,6 +94,15 @@
     </div>
 </div>
 
+<button class="collapsible">ÜK 340 - Zusammenfassung</button>
+<div class="content">
+    <object class="collapsible-object" data="../documents/ÜK 340 - Zusammenfassung.pdf" type="application/pdf">
+        <div class=" btn-container mail-container">
+            <a href="../documents/ÜK 330 - Spick.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+        </div>
+    </object>
+</div>
+</div>
 
 <!-- Script -->
 <script>
