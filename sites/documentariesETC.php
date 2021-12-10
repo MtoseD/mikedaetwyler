@@ -63,6 +63,15 @@
         </object>
     </div>
 
+    <button class="collapsible">PowerShell: Security</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/PowerShell - Security.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/PowerShell - Security.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
     <h2 class="documentaries-title">Informatiker - Lehre</h2>
 
     <!-- Informatiker - Lehre -->
