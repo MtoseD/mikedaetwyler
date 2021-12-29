@@ -8,7 +8,7 @@
 
 <!-- Contact-Button -->
 <div class="mail-container">
-    <a href="mailto:mike.daetwyler@bluewin.ch">
+    <a href="mailto:contact@mike-daetwyler.ch">
         <button class="mail">
             <i class="mail-envelope far fa-envelope"></i>
             Kontaktieren Sie mich
