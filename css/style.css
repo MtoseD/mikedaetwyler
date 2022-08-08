@@ -24,25 +24,15 @@ footer {
   color: black;
 }
 
-.footerCopyright, .tbfooter, .footerDonation {
+.footerCopyright, .tbfooter {
   margin: 1%;
-}
-
-.footerDonationLink {
-  text-decoration: none;
-  color: black;
-}
-
-.donation-icon {
-  padding-right: 5px;
-  color: #5f5f5f;
 }
 
 @media screen and (max-width: 475px) {
   footer {
     justify-content: space-around;
   }
-  .footerCopyright, .tbfooter, .footerDonation {
+  .footerCopyright, .tbfooter {
     margin: 2%;
   }
 }
