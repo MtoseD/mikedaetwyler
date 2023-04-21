@@ -54,11 +54,11 @@
         </object>
     </div>
 
-    <button class="collapsible">Tastenkombinationen</button>
+    <button class="collapsible">IAM - Einführung</button>
     <div class="content">
-        <object class="collapsible-object" data="../documents/Tastenkombination.pdf" type="application/pdf">
+        <object class="collapsible-object" data="../documents/IAM-Introduction.pdf" type="application/pdf">
             <div class=" btn-container mail-container">
-                <a href="../documents/Tastenkombination.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+                <a href="../documents/IAM-Introduction.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
             </div>
         </object>
     </div>
@@ -72,9 +72,27 @@
         </object>
     </div>
 
+    <button class="collapsible">Tastenkombinationen</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/Tastenkombination.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/Tastenkombination.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
     <h2 class="documentaries-title">Informatiker - Lehre</h2>
 
     <!-- Informatiker - Lehre -->
+    <button class="collapsible">Praktische Abschlussarbeit</button>
+    <div class="content">
+        <object class="collapsible-object" data="../documents/PA_Daetwyler_Mike_V1.pdf" type="application/pdf">
+            <div class=" btn-container mail-container">
+                <a href="../documents/PA_Daetwyler_Mike_V1.pdf"><button class="download-btn mail">Download<i class="download-icon fas fa-download"></i></button></a>
+            </div>
+        </object>
+    </div>
+
     <button class="collapsible">Docker - Zusammenfassung</button>
     <div class="content">
         <object class="collapsible-object" data="../documents/Zusammenfassung-Docker.pdf" type="application/pdf">
